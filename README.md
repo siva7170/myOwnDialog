@@ -1,6 +1,6 @@
 # myOwnDialog
 
-Modal box - jQuery - Simple and very effective modal box
+Modal box - jQuery - Simple and very effective modal box. [Demo](https://siva7170.github.io/myOwnDialog/modal.html)
 
 ## Getting Started
 
