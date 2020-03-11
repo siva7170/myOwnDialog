@@ -1,0 +1,198 @@
+/******************************************
+ *
+ *   Modalbox v1.1 - jQuery
+ *
+ ******************************************/
+
+.noselect
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.myOwnDialog_overlay
+{
+
+}
+.mdl_top
+{
+    position: absolute;
+    background-color: red;
+    left: 4px;
+    right: 4px;
+    height: 4px;
+    top: 0;
+    cursor: n-resize;
+    opacity: 0.0;
+}
+.mdl_bottom
+{
+    position: absolute;
+    background-color: red;
+    left: 4px;
+    right: 4px;
+    height: 4px;
+    bottom: 0;
+    cursor: s-resize;
+    opacity: 0.0;
+}
+.mdl_left
+{
+    position: absolute;
+    background-color: red;
+    top: 4px;
+    bottom: 4px;
+    width: 4px;
+    left: 0px;
+    cursor: w-resize;
+    opacity: 0.0;
+}
+.mdl_right
+{
+    position: absolute;
+    background-color: red;
+    top: 4px;
+    bottom: 4px;
+    width: 4px;
+    right: 0px;
+    cursor: e-resize;
+    opacity: 0.0;
+}
+.titlebar
+{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    height: 30px;
+}
+.titlebar_left
+{
+    position: absolute;
+    left: 0px;
+    right: 30px;
+    height: 30px;
+    cursor: move;
+}
+.titlebar_right
+{
+    position: absolute;
+    width: 30px;
+    right: 0px;
+    height: 30px;
+    color: black;
+    cursor: default;
+}
+.mdl_top_left
+{
+    position: absolute;
+    background-color: blue;
+    top: 0px;
+    left: 0px;
+    width: 4px;
+    height: 4px;
+    cursor: nw-resize;
+    opacity: 0.0;
+}
+.mdl_top_right
+{
+    position: absolute;
+    background-color: blue;
+    top: 0px;
+    right: 0px;
+    width: 4px;
+    height: 4px;
+    cursor: ne-resize;
+    opacity: 0.0;
+}
+.mdl_bottom_left
+{
+    position: absolute;
+    background-color: blue;
+    bottom: 0px;
+    left: 0px;
+    width: 4px;
+    height: 4px;
+    cursor: sw-resize;
+    opacity: 0.0;
+}
+.mdl_bottom_right
+{
+    position: absolute;
+    background-color: blue;
+    bottom: 0px;
+    right: 0px;
+    width: 4px;
+    height: 4px;
+    cursor: se-resize;
+    opacity: 0.0;
+}
+.titlebar_title
+{
+    margin: 5px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mdl_box_body
+{
+    position: absolute;
+    left: 4px;
+    right: 4px;
+    top: 34px;
+    bottom: 4px;
+    overflow: hidden;
+}
+.titlebar_right .close
+{
+    margin: 5px;
+    margin-left: 11px;
+    font-weight: bold
+}
+body
+{
+
+}
+.parent
+{
+    position: relative;
+    margin: 50px;
+    overflow: hidden;
+    height: 200px;
+    width: 180px;
+    background: #ddd;
+}
+.scrollable
+{
+    overflow-y: scroll;
+    position: absolute;
+    padding: 0 17px 0 0;
+    width: 180px;
+    height: 100%;
+}
+.scrollbar
+{
+    position: absolute;
+    overflow: auto;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    background: #444;
+    width: 7px;
+    border-radius: 5px;
+}
+.b_scroll
+{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    background: #444;
+    width: 7px;
+    border-radius: 5px;
+    bottom: 0;
+}
