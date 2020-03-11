@@ -12,11 +12,11 @@ This plugin is work with jQuery. So, you need below requirements to work with th
 
 * `modalbox_v1.0.min.css`
 
-* `modalbox_v1.0.min.js`
+* `modalbox.min.js`
 
 ### Initialization
 
-Place "modalbox_v1.0.min.css" and latest jQuery above the end head tag and place "modalbox_v1.0.min.js" above the end body tag.
+Place "modalbox_v1.0.min.css" and latest jQuery above the end head tag and place "modalbox.min.js" above the end body tag.
 
 ```html
 <html>
@@ -26,7 +26,7 @@ Place "modalbox_v1.0.min.css" and latest jQuery above the end head tag and place
   </head>
   <body>
     <!-- Your page content -->
-    <script src="script/modalbox_v1.0.min.js" type="text/javascript"></script>
+    <script src="script/modalbox.min.js" type="text/javascript"></script>
   </body>
 </html>
 ```
@@ -81,7 +81,7 @@ Below code is sample for how to use it. Please see methods and its functionaliti
         Abcdefghijklmnopqrstuvwxyz Abcdefghijklmnopqrstuvwxyz
     </div>
     <button id="dialogop"> Click me[Movale,Not resizable]</button>
-    <script src="script/modalbox_v1.0.min.js" type="text/javascript"></script>
+    <script src="script/modalbox.min.js" type="text/javascript"></script>
     <script>
         // Apply Modalbox to "#myDialog"
         $("#myDialog").myOwnDialog(
@@ -193,4 +193,9 @@ By this parameter, you can set modal box behaviour. If this option set to true, 
 
 You can resize modal box from all directions.(top,top-right,right,bottom-right,bottom,bottom-left,left,top-left) Ex:. resizable:false
 
-### touchOutsideForClose (Not yet completed)
+### touchOutsideForClose
+
+- Type: `Boolean`
+- Default: `false`
+
+You can make modal to close when click on outside of the own modal box. Ex:. touchOutsideForClose:true
