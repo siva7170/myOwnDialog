@@ -426,9 +426,7 @@
         });
 
         if (dialog_auto_close !== "false") {
-            console.log('enter');
             setTimeout(function () {
-                console.log('timeout');
                 closeModal.call($this, data);
             }, dialog_auto_close);
         }
@@ -473,10 +471,6 @@
                 }
             }
             closeModal();
-            console.log('found');
-        }
-        else{
-            console.log('not found'+$modalOverlay.length);
         }
     };
 
