@@ -22,7 +22,7 @@ Place "modalbox_v1.0.min.css" and latest jQuery above the end head tag and place
 <html>
   <head>
     <link rel="stylesheet" href="css/modalbox_v1.0.min.css" type="text/css"/>
-    <script src="script/jquery.min-3.1.1.js" type="text/javascript"></script> <!-- Please update with latest jQuery -->
+    <script src="script/jquery-3.5.1.min.js" type="text/javascript"></script> <!-- Please update with latest jQuery -->
   </head>
   <body>
     <!-- Your page content -->
