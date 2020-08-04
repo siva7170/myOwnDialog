@@ -107,6 +107,40 @@ Below code is sample for how to use it. Please see methods and its functionaliti
 </body>
 </html>
 ```
+## Options
+
+### open
+
+- Type: `String`
+
+To open modal box, please use `open` option. 
+
+```
+    <script>
+    //----------------  
+        $("#dialogop").click(function () {
+            $("#myDialog").myOwnDialog("open");
+        });
+    //----------------  
+    </script>
+```
+
+### close
+
+- Type: `String`
+
+To close modal box, please use `close` option. 
+
+```
+    <script>
+    //----------------  
+        $("#closeBtn").click(function () {
+            $("#myDialog").myOwnDialog("close");
+        });
+    //----------------  
+    </script>
+```
+
 ## Plugin parameters
 
 ### autoClose
@@ -199,3 +233,42 @@ You can resize modal box from all directions.(top,top-right,right,bottom-right,b
 - Default: `false`
 
 You can make modal to close when click on outside of the own modal box. Ex:. touchOutsideForClose:true
+
+### touchOutsideForClose
+
+- Type: `Boolean`
+- Default: `false`
+
+You can make modal to close when click on outside of the own modal box. Ex:. touchOutsideForClose:true
+
+### beforeOpenCallback
+
+- Type: `Boolean`|`function`
+- Default: `false`
+
+You can pass function for callback. It will trigger before modal box appear
+
+### afterOpenedCallback
+
+- Type: `Boolean`|`function`
+- Default: `false`
+
+It will trigger after modal box appeared
+
+### beforeCloseCallback
+
+- Type: `Boolean`|`function`
+- Default: `false`
+
+It will trigger before modal box close
+
+### afterClosedCallback
+
+- Type: `Boolean`|`function`
+- Default: `false`
+
+It will trigger after modal box closed
+
+## Contribution
+
+Thank you [`jQueryScript.Net`](https://www.jqueryscript.net) for publishing this jQuery plugin into your website I did not submit this plugin from our end on your website. I have seen [`Draggable And Resizable Modal Popup - myOwnDialog.js`](https://www.jqueryscript.net/lightbox/draggable-resizable-modal.html) page in your site. Thank you again for this. It will help me to create more jQuery plugins.
