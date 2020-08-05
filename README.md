@@ -269,6 +269,22 @@ It will trigger before modal box close
 
 It will trigger after modal box closed
 
+## Changelog
+
+* v1.2.1
+  * Some minor issues fixed
+
+* v1.2
+  * Code improvements
+  * Some functionalities added
+  * Some minor bugs fixed
+
+* v1.1
+  * Code improvements and add some functionalities
+
+* v1.0
+  * New release
+
 ## Contribution
 
 Thank you [`jQueryScript.Net`](https://www.jqueryscript.net) for publishing this jQuery plugin into your website I did not submit this plugin from our end on your website. I have seen [`Draggable And Resizable Modal Popup - myOwnDialog.js`](https://www.jqueryscript.net/lightbox/draggable-resizable-modal.html) page in your site. Thank you again for this. It will help me to create more jQuery plugins.
